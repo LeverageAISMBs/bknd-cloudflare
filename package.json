@@ -1,0 +1,19 @@
+{
+   "name": "bknd-cloudflare",
+   "version": "0.0.0",
+   "private": true,
+   "scripts": {
+      "deploy": "wrangler deploy",
+      "dev": "wrangler dev",
+      "typegen": "wrangler types",
+      "postinstall": "wrangler types"
+   },
+   "dependencies": {
+      "bknd": "0.19.0"
+   },
+   "devDependencies": {
+      "@cloudflare/workers-types": "^4.20251126.0",
+      "typescript": "^5.9.3",
+      "wrangler": "^4.51.0"
+   }
+}
